@@ -1,0 +1,44 @@
+# Hugo generated files and directories
+/public/
+/resources/_gen/
+/hugo_stats.json
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# OS-specific files and directories
+.DS_Store
+Thumbs.db
+
+# Dependency directories
+node_modules/
+/vendor/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# Backup files
+*.bak
+*.orig
+
+# Other IDE-specific files
+.idea/
+/.vscode/
+/*.sublime-project
+/*.sublime-workspace
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-*
+.cache/
+
+# Miscellaneous
+*.env
+.env.local

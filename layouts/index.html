@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+	{{ partial "head.html" . }}
+</head>
+<body>
+	<div class="container-fluid p-0">
+		
+		<!-- Parallax -->
+		<div class="p-0 parallax">
+			<div class="parallax_nebula"></div>
+			<div class="parallax_junk_furthest"></div>
+			<div class="parallax_junk_far"></div>
+			<div class="parallax_junk_near"></div>
+		</div>
+
+		<!-- Hero -->
+		<div class="container-fluid bg-dark text-white text-center py-5">
+			<div class="container">
+				<div class="col">
+					<img class="img-fluid mb-5" src="images/space-conquest_logo.png" alt="Space Conquest AI Logo" style="width: 100%">
+					<h2 class="mb-5">{{ i18n "hook" }}</h2>
+					<a type="button" class="btn btn-primary btn-lg font-weight-bold text-uppercase px-2" href="#">Play Demo</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- Steam Wishlist -->
+		<div class="container-fluid bg-light py-5">
+			<div class="container">
+				<div class="col">
+					<h2 class="text-uppercase text-center">Steam Wishlist</h2>
+				</div>
+			</div>
+		</div>
+
+		<!-- Features -->
+		<div class="container-fluid text-white py-5">
+			<div class="container" style="animation-timeline: none;">
+				<div class="col">
+					<h2 class="text-uppercase text-center mb-5">Features</h2>
+
+					{{ partial "feature.html" (dict
+						"src" "/images/sun-test.png"
+						"alt" "Feature Image"
+						"rotation" "1.5deg"
+						"title" "Feature A"
+						"description" "Feature explanation."
+					) }}
+
+					{{ partial "feature.html" (dict
+						"src" "/images/sun-test.png"
+						"alt" "Feature Image"
+						"rotation" "-1.5deg"
+						"title" "Feature B"
+						"description" "Feature explanation."
+					) }}
+
+					{{ partial "feature.html" (dict
+						"src" "/images/sun-test.png"
+						"alt" "Feature Image"
+						"rotation" "1.5deg"
+						"title" "Feature C"
+						"description" "Feature explanation."
+					) }}
+
+				</div>
+			</div>
+		</div>
+
+		<!-- FAQ -->
+		<div class="container-fluid bg-dark text-white py-5">
+			<div class="container">
+				<div class="col">
+					<h2 class="text-uppercasetext-uppercase text-center mb-5">FAQ</h2>
+
+					<div class="accordion" id="accordionFAQ">
+
+						{{ partial "faq.html" (dict
+							"id" "collapseOne"
+							"expanded" "true"
+							"question" "What is Hugo?"
+							"answer" "Hugo is a fast and modern static site generator written in Go.")
+						}}
+						
+						{{ partial "faq.html" (dict
+							"id" "collapseTwo"
+							"expanded" "false"
+							"question" "What is Bootstrap?"
+							"answer" "Bootstrap is a popular CSS framework for developing responsive and mobile-first websites.")
+						}}
+
+					</div>
+					
+				</div>
+			</div>
+		</div>
+
+		{{ partial "footer.html" . }}
+	</div>
+</body>
+</html>

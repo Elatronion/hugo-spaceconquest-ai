@@ -1,0 +1,18 @@
+baseURL = 'https://spaceconquest.ai/'
+languageCode = 'en-us'
+title = 'Space Conquest AI'
+
+[build]
+  writeStats = true
+
+[params]
+  assetsDir = "assets"
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+
+  [languages.es]
+    languageName = "Español"
+    weight = 2

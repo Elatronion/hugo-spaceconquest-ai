@@ -1,0 +1,59 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ .Site.Title }}</title>
+{{ $styles := resources.Get "scss/main.scss" | toCSS | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $styles.Permalink }}">
+
+<style>
+	.parallax {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 200%;
+		display: grid;
+		grid-template-areas: "stack";
+		z-index: -5;
+	}
+
+	.parallax > * {
+		grid-area: stack;
+		animation: parallax linear;
+		animation-timeline: scroll();
+		background-repeat: repeat;
+	}
+
+	.parallax_nebula {
+		--parallax-speed: 0.5;
+		width: 100%;
+		height: 100%;
+		background-image: url("images/background/space-conquest_gas-generation.png");
+	}
+	
+	.parallax_junk_furthest {
+		--parallax-speed: 1.0;
+		width: 100%;
+		height: 100%;
+		background-image: url("images/background/space-conquest_junk-generation_furthest.png");
+	}
+
+	.parallax_junk_far {
+		--parallax-speed: 1.5;
+		width: 100%;
+		height: 100%;
+		background-image: url("images/background/space-conquest_junk-generation_far.png");
+	}
+
+	.parallax_junk_near {
+		--parallax-speed: 2.0;
+		width: 100%;
+		height: 100%;
+		background-image: url("images/background/space-conquest_junk-generation_near.png");
+	}
+
+	@keyframes parallax {
+		to {
+			transform: translateY(calc(var(--parallax-speed) * -250px));
+		}
+	}
+</style>
