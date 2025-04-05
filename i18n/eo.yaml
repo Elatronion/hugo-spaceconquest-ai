@@ -1,0 +1,64 @@
+WEBSITE_HEADER2:
+  "Festludo propulsita de via imagopovo."
+WEBSITE_HEADER3:
+  "Konstruu vian imperion, konkere la tutan sunsistemon kaj establighu kiel la ĉefa imperiestro."
+WEBSITE_PLAY_NOW:
+  "Ludu Nun"
+WEBSITE_FEATURES:
+  "Ecoj"
+WEBSITE_FEATURE_00_HEADER:
+  "Kreu Vian Imperion"
+WEBSITE_FEATURE_00_CONTENT:
+  "Elsendu vian kreivecon por dizajni la ultiman imperion laŭ via vizio! Ĉiu decido, kiun vi faras, lasas daŭran heredaĵon."
+WEBSITE_FEATURE_01_HEADER:
+  "Via Deziro Estas Nia Ordo, Imperiestro..."
+WEBSITE_FEATURE_01_CONTENT:
+  "Elsendu vian kreivecon por dizajni la ultiman imperion laŭ via vizio! Ĉiu decido, kiun vi faras, lasas daŭran heredaĵon."
+WEBSITE_FEATURE_02_HEADER:
+  "Amikoj Ludas Senpage!"
+WEBSITE_FEATURE_02_CONTENT:
+  "Gastigu ludon por viaj amikoj, kiuj povas aliĝi per senpaga kliento havebla ĉe Steam, la App Store kaj la Play Store. Ludu aŭ interrete aŭ eksterrete, eĉ ambaŭ samtempe!"
+WEBSITE_FEATURE_03_HEADER:
+  "AI-Lud-Majstro"
+WEBSITE_FEATURE_03_CONTENT:
+  "Agento desegnita por konsideri ludstaton, krei kaj etendi legendojn, kaj rakonti amuzan rakonton plenigitan per turniĝoj kun animaciitaj agoj, kiuj prezentas la efikon en la ludo! Ĝi subtenas LLAMA kaj GPT de OpenAI."
+WEBSITE_FEATURE_04_HEADER:
+  "Halucinacio? Pli bone diri Imagopovo!"
+WEBSITE_FEATURE_04_CONTENT:
+  "Ni transformis la plej teruran parton de LLM-teknologio—halucinacioj—en imagopovon! Se la AI diras, ke io okazis, do ĝi okazis. Fikcio iĝas fakto!"
+WEBSITE_FEATURE_05_HEADER:
+  "Ĉu vi malamas AI?"
+WEBSITE_FEATURE_05_CONTENT:
+  "Ni ankaŭ! Ni pagis verajn homojn por fari ĉi tiun ludon! Ĉiu arto, kodo kaj muziko estis verkita de homoj. Ni uzas AI ekskluzive en la ĉefa ludpovilo, kaj vi povas elekti kiun AI regas la agenton. Defaŭlte, ni proponas lokan LLAMA-modelon."
+WEBSITE_PRESS_KIT:
+  "Pres-Kit"
+WEBSITE_PRESS_KIT_CONTENT:
+  "Disvastigu la novaĵojn! Jen la ekrankopioj, arto, reklamfilmo kaj OST."
+WEBSITE_PRESS_KIT_DOWNLOAD:
+  "Elŝuti la Pres-Kit-on"
+WEBSITE_FAQ:
+  "Oftaj Demandoj"
+WEBSITE_FAQ_00_HEADER:
+  "Inspirita de DougDoug?"
+WEBSITE_FAQ_00_CONTENT:
+  "Je la 1-a de novembro 2022, la hilara kaj kreiva enhavkreanto \"DougDoug\" publikigis videon titolitan \"Twitch Chat and I Invaded Space with Artificial Intelligence\". Tiu tuj ekflamigis la inspiron por ŝanĝi lian ideon en realan ludon!"
+WEBSITE_FAQ_01_HEADER:
+  "Ĉu mi povas mem-gastigi la foirejan servilon?"
+WEBSITE_FAQ_01_CONTENT:
+  "Jes! Simple funkciigas la foirejan servilon kie ajn vi volas gastigi ĝin, kaj en la agordoj de Space Conquest, vi povas alvoki al via propra loka foireja servilo."
+WEBSITE_FAQ_02_HEADER:
+  "Kiel mi povas ludi enreta?"
+WEBSITE_FAQ_02_CONTENT:
+  "La gastiganto kreas ĉambron, kaj tiel longe kiel ambaŭ estas konektita al la sama foireja servilo (trovebla en la agordoj), vi povos konekti al la ĉambro de la gastiganto per uzado de la 4-litera kodo. Estas tiel facile!"
+WEBSITE_FAQ_03_HEADER:
+  "Ĉu mi povas Uzi GPT de OpenAI? Mia komputilo ne estas sufiĉe potenca por funkciigi la AI-loke."
+WEBSITE_FAQ_03_CONTENT:
+  "Jes. La gastiganto devas provizi OpenAI-eldonanto-klavon, ili persone estos pagendaj de OpenAI."
+WEBSITE_FAQ_04_HEADER:
+  "Ĉu mi povas uzi ElevenLabs por rakontado?"
+WEBSITE_FAQ_04_CONTENT:
+  "Jes. La gastiganto devas provizi ElevenLabs-eldonanto-klavon, ili persone estos pagendaj de ElevenLabs."
+WEBSITE_CONTACT:
+  "Por iuj enketoj aŭ problemoj, bonvolu kontakti %s."
+WEBSITE_COPYRIGHT_RIGHTS:
+  "Ĉiuj rajtoj rezervitaj."

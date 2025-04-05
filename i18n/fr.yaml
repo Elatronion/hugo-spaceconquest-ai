@@ -1,0 +1,64 @@
+WEBSITE_HEADER2:
+  "Un jeu de fête alimenté par votre imagination."
+WEBSITE_HEADER3:
+  "Érigez votre empire, conquérez le système solaire entier et imposez-vous en tant qu'empereur suprême."
+WEBSITE_PLAY_NOW:
+  "Jouer Maintenant"
+WEBSITE_FEATURES:
+  "Fonctionnalités"
+WEBSITE_FEATURE_00_HEADER:
+  "Créez Votre Empire"
+WEBSITE_FEATURE_00_CONTENT:
+  "Libérez votre créativité pour concevoir l'empire suprême à votre image ! Chaque décision que vous prenez laisse un héritage durable."
+WEBSITE_FEATURE_01_HEADER:
+  "Votre Souhait Est Notre Commande, Empereur ..."
+WEBSITE_FEATURE_01_CONTENT:
+  "Libérez votre créativité pour concevoir l'empire définitif à votre image ! Chaque décision que vous prenez laisse un héritage durable."
+WEBSITE_FEATURE_02_HEADER:
+  "Vos Amis Jouent Gratuitement !"
+WEBSITE_FEATURE_02_CONTENT:
+  "Hébergez une partie pour vos amis, qui peuvent se connecter avec un client GRATUIT disponible sur Steam, l'App Store et le Play Store. Jouez en ligne ou hors ligne, ou même les deux en même temps !"
+WEBSITE_FEATURE_03_HEADER:
+  "Maître de Jeu IA"
+WEBSITE_FEATURE_03_CONTENT:
+  "Un agent conçu pour prendre en compte l'état du jeu, créer et développer le lore, et raconter une histoire amusante avec des rebondissements et des actions animées qui montrent l'impact en jeu! Il prend en charge LLAMA et GPT de OpenAI."
+WEBSITE_FEATURE_04_HEADER:
+  "Hallucination ? Plutôt Imagination !"
+WEBSITE_FEATURE_04_CONTENT:
+  "Nous avons transformé le pire aspect de la technologie LLM - les hallucinations - en imagination ! Si l'IA dit que quelque chose s'est passé, c'est que c'est le cas. La fiction devient réalité !"
+WEBSITE_FEATURE_05_HEADER:
+  "Vous Détestez L'IA ?"
+WEBSITE_FEATURE_05_CONTENT:
+  "Nous aussi ! Nous avons payé de vraies personnes pour réaliser ce jeu ! Toutes les illustrations, tout le code et toute la musique ont été créés par des humains. Nous utilisons exclusivement de l'IA pour la boucle de gameplay principale, et vous pouvez choisir quelle IA alimente l'agent. Par défaut, nous proposons un modèle LLAMA exécuté localement."
+WEBSITE_PRESS_KIT:
+  "Kit de Presse"
+WEBSITE_PRESS_KIT_CONTENT:
+  "Partagez l'actualité ! Voici les captures d'écran, les œuvres d'art, la bande-annonce et l'OST."
+WEBSITE_PRESS_KIT_DOWNLOAD:
+  "Télécharger le Kit de Presse"
+WEBSITE_FAQ:
+  "FAQ"
+WEBSITE_FAQ_00_HEADER:
+  "Inspiré par DougDoug ?"
+WEBSITE_FAQ_00_CONTENT:
+  "Le 1er novembre 2022, le créateur de contenu hilarant et créatif \"DougDoug\" a publié une vidéo intitulée \"Twitch Chat and I Invaded Space with Artificial Intelligence\". Ce qui a immédiatement inspiré l'idée de transformer son idée en un véritable jeu !"
+WEBSITE_FAQ_01_HEADER:
+  "Puis-je héberger moi-même le serveur du lobby ?"
+WEBSITE_FAQ_01_CONTENT:
+  "Oui ! Il suffit d'exécuter le serveur du lobby là où vous voulez l'héberger, et dans les paramètres de Space Conquest, vous pouvez indiquer votre propre serveur de lobby local."
+WEBSITE_FAQ_02_HEADER:
+  "Comment puis-je jouer en ligne ?"
+WEBSITE_FAQ_02_CONTENT:
+  "L'hôte crée une salle, et tant que vous êtes tous deux connectés au même serveur de lobby (trouvé dans les paramètres), vous pourrez vous connecter à la salle de l'hôte en utilisant le code à 4 lettres. C'est aussi simple que ça !"
+WEBSITE_FAQ_03_HEADER:
+  "Puis-je utiliser le GPT d'OpenAI ? Mon PC n'est pas assez puissant pour exécuter l'IA localement."
+WEBSITE_FAQ_03_CONTENT:
+  "Oui. L'hôte doit fournir une clé de développeur OpenAI, ils seront personnellement facturés par OpenAI."
+WEBSITE_FAQ_04_HEADER:
+  "Puis-je utiliser ElevenLabs pour la narration ?"
+WEBSITE_FAQ_04_CONTENT:
+  "Oui. L'hôte doit fournir une clé de développeur ElevenLabs, ils seront personnellement facturés par ElevenLabs."
+WEBSITE_CONTACT:
+  "Pour toute demande ou problème, veuillez contacter %s."
+WEBSITE_COPYRIGHT_RIGHTS:
+  "Tous droits réservés."

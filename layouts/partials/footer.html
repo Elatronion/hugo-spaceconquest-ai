@@ -1,5 +1,10 @@
 <div class="container-fluid bg-dark text-white p-5">
-	<p class="text-center">Copyright © {{ now.Year }} Ezra Hradecky. All rights reserved.</p>
+	<!--<p class="text-center" style="color:#999999;">{{ i18n "WEBSITE_CONTACT" }} <a href="mailto:contact@spaceconquest.ai">contact@spaceconquest.ai</a>.</p>-->
+	{{ $email := "contact@spaceconquest.ai" }}
+	{{ $emailLink := printf "<a href='mailto:%s'>%s</a>" $email $email }}
+	<p class="text-center" style="color:#999999;">{{ printf (i18n "WEBSITE_CONTACT") $emailLink | safeHTML }}</p>
+	
+	<p class="text-center">Copyright © {{ now.Year }} Ezra Hradecky. {{ i18n "WEBSITE_COPYRIGHT_RIGHTS" }}</p>
 </div>
 
 {{ $js := resources.Get "js/bootstrap.js" | js.Build | minify | fingerprint }}

@@ -1,0 +1,64 @@
+WEBSITE_HEADER2:
+  想像力で動くパーティーゲーム。
+WEBSITE_HEADER3:
+  帝国を建設し、太陽系全体を征服し、究極の皇帝として名声を上げよう。
+WEBSITE_PLAY_NOW:
+  今すぐプレイ
+WEBSITE_FEATURES:
+  特徴
+WEBSITE_FEATURE_00_HEADER:
+  帝国を作ろう
+WEBSITE_FEATURE_00_CONTENT:
+  想像力を駆使して、思い描く最高の帝国を作り上げよう！一つ一つの決定は、永久にその痕跡を残す。
+WEBSITE_FEATURE_01_HEADER:
+  お望みなら何なりと、皇帝…
+WEBSITE_FEATURE_01_CONTENT:
+  彫像の建設から核アヒルの発射まで、端末コンソールを使って文字または音声で命令を入力し、自分の帝国が理想の計画を実行するのを見守ろう…失敗したら、月に墜落することも！
+WEBSITE_FEATURE_02_HEADER:
+  友達と無料で対戦！
+WEBSITE_FEATURE_02_CONTENT:
+  ゲームをホストしたり、Steam、App Store、Google Playで入手可能な無料のクライアントを使って友達のゲームに参加したりできる。オンラインでもオフラインでも、両方同時でもプレイ可能！
+WEBSITE_FEATURE_03_HEADER:
+  AIのゲームマスター
+WEBSITE_FEATURE_03_CONTENT:
+  ゲームの現状を考慮し、伝承を作ってふくらませたり、ひねりのある楽しいストーリーをナレーションしたりするように設計されている！行動には臨場感を出すアニメーションも！LlamaとOpenAIのGPTに対応。
+WEBSITE_FEATURE_04_HEADER:
+  幻覚？むしろ想像力だ！
+WEBSITE_FEATURE_04_CONTENT:
+  LLM技術の一番悪い点、「幻覚」が想像力に変わるゲーム！何かが起こったとAIが言えば、それは本当に起こったのだ。虚構が現実になる！
+WEBSITE_FEATURE_05_HEADER:
+  AIは嫌いですか？
+WEBSITE_FEATURE_05_CONTENT:
+  そうですね！このゲームを作るために、実在する人間に料金を支払いました！アート、コード、音楽はすべて人間の手によるものです。コアとなるゲームプレイシステムにのみAIが使われており、エージェントを動かすAIは選ぶことができます。デフォルトでは、ローカルで動作するLlamaモデルになっています。
+WEBSITE_PRESS_KIT:
+  プレスキット
+WEBSITE_PRESS_KIT_CONTENT:
+  ニュースを共有してください！こちらはスクリーンショット、アートワーク、トレーラー、オリジナルサウンドトラックです。
+WEBSITE_PRESS_KIT_DOWNLOAD:
+  プレスキットをダウンロード
+WEBSITE_FAQ:
+  FAQ
+WEBSITE_FAQ_00_HEADER:
+  DougDougの影響を受けていますか？
+WEBSITE_FAQ_00_CONTENT:
+  2022年11月1日、陽気でクリエイティブなコンテンツクリエイター「DougDoug」が「Twitch Chat and I Invaded Space with Artificial Intelligence」というタイトルの動画を投稿しました。動画を見て、彼のアイデアを実際のゲームにしたらどうかとすぐにひらめきました！
+WEBSITE_FAQ_01_HEADER:
+  ロビーサーバーを自分でホストできますか？
+WEBSITE_FAQ_01_CONTENT:
+  はい！ロビーサーバーを好きなところで動作させ、ゲーム内の設定で自分のローカルロビーサーバーを指定するだけです。
+WEBSITE_FAQ_02_HEADER:
+  オンラインプレイはどうすればいいですか？
+WEBSITE_FAQ_02_CONTENT:
+  ホストがルームを作成し、プレイヤー同士が設定にある同じロビーサーバーに接続されていれば、4文字のコードを使ってホストのルームに接続できます。とても簡単です！
+WEBSITE_FAQ_03_HEADER:
+  OpenAIのGPTは使えますか？PCの性能不足で、ローカルでAIを動かせません。
+WEBSITE_FAQ_03_CONTENT:
+  はい。そのためにはホストがOpenAIの開発キーを提示する必要があります。この料金は別途OpenAIから請求されます。
+WEBSITE_FAQ_04_HEADER:
+  ナレーションにElevenLabsを使えますか？
+WEBSITE_FAQ_04_CONTENT:
+  はい。そのためにはホストがElevenLabsの開発キーを提示する必要があります。この料金は別途ElevenLabsから請求されます。
+WEBSITE_CONTACT:
+  ご質問や問題がありましたら、%sまでお問い合わせください。
+WEBSITE_COPYRIGHT_RIGHTS:
+  All rights reserved.

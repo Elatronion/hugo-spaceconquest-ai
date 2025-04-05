@@ -13,6 +13,17 @@ title = 'Space Conquest AI'
     languageName = "English"
     weight = 1
 
+  [languages.eo]
+    languageName = "Esperanto"
+
   [languages.es]
     languageName = "Español"
-    weight = 2
+
+  [languages.fr]
+    languageName = "Français"
+
+  [languages.ja]
+    languageName = "日本語"
+
+  [languages.zh]
+    languageName = "简体中文"

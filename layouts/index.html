@@ -4,6 +4,24 @@
 	{{ partial "head.html" . }}
 </head>
 <body>
+	<div class="container-fluid bg-dark text-white text-center py-1">
+		<ul class="nav justify-content-end">
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					{{ range .Site.Languages }}
+					{{ if eq . $.Site.Language }}
+					{{ .LanguageName }}
+					{{ end }}
+					{{ end }}
+				</a>
+				<ul class="dropdown-menu" aria-labelledby="languageDropdown">
+					{{ range $.Translations }}
+					<li><a class="dropdown-item" title="{{ .Language.LanguageName }}" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+					{{ end }}
+				</ul>
+			</li>
+		</ul>
+	</div>
 	<div class="container-fluid p-0">
 		
 		<!-- Parallax -->
@@ -18,9 +36,10 @@
 		<div class="container-fluid bg-dark text-white text-center py-5">
 			<div class="container">
 				<div class="col">
-					<img class="img-fluid mb-5" src="images/space-conquest_logo.png" alt="Space Conquest AI Logo" style="width: 100%">
-					<h2 class="mb-5">{{ i18n "hook" }}</h2>
-					<a type="button" class="btn btn-primary btn-lg font-weight-bold text-uppercase px-2" href="#">Play Demo</a>
+					<img class="img-fluid mb-5" src="/images/space-conquest_logo.png" alt="Space Conquest AI Logo" style="width: 100%">
+					<h2 class="mb-1">{{ i18n "WEBSITE_HEADER2" }}</h2>
+					<h3 class="mb-5">{{ i18n "WEBSITE_HEADER3" }}</h3>
+					<a type="button" class="btn btn-primary btn-lg font-weight-bold text-uppercase px-2" href="#">{{ i18n "WEBSITE_PLAY_NOW" }}</a>
 				</div>
 			</div>
 		</div>
@@ -28,8 +47,8 @@
 		<!-- Steam Wishlist -->
 		<div class="container-fluid bg-light py-5">
 			<div class="container">
-				<div class="col">
-					<h2 class="text-uppercase text-center">Steam Wishlist</h2>
+				<div class="col d-flex justify-content-center">
+					<iframe src="https://store.steampowered.com/widget/1686940/" frameborder="0" width="646" height="190"></iframe>
 				</div>
 			</div>
 		</div>
@@ -38,57 +57,121 @@
 		<div class="container-fluid text-white py-5">
 			<div class="container" style="animation-timeline: none;">
 				<div class="col">
-					<h2 class="text-uppercase text-center mb-5">Features</h2>
+					<h2 class="text-uppercase text-center mb-5">{{ i18n "WEBSITE_FEATURES" }}</h2>
 
 					{{ partial "feature.html" (dict
-						"src" "/images/sun-test.png"
-						"alt" "Feature Image"
-						"rotation" "1.5deg"
-						"title" "Feature A"
-						"description" "Feature explanation."
-					) }}
-
-					{{ partial "feature.html" (dict
-						"src" "/images/sun-test.png"
+						"src" "/images/features/SA1_color.png"
 						"alt" "Feature Image"
 						"rotation" "-1.5deg"
-						"title" "Feature B"
-						"description" "Feature explanation."
+						"title" (i18n "WEBSITE_FEATURE_00_HEADER")
+						"description" (i18n "WEBSITE_FEATURE_00_CONTENT")
 					) }}
 
 					{{ partial "feature.html" (dict
-						"src" "/images/sun-test.png"
+						"src" "/images/features/SA2_color.png"
 						"alt" "Feature Image"
 						"rotation" "1.5deg"
-						"title" "Feature C"
-						"description" "Feature explanation."
+						"title" (i18n "WEBSITE_FEATURE_01_HEADER")
+						"description" (i18n "WEBSITE_FEATURE_01_CONTENT")
+					) }}
+
+					{{ partial "feature.html" (dict
+						"src" "/images/features/SA3_color.png"
+						"alt" "Feature Image"
+						"rotation" "-1.5deg"
+						"title" (i18n "WEBSITE_FEATURE_02_HEADER")
+						"description" (i18n "WEBSITE_FEATURE_02_CONTENT")
+					) }}
+
+					{{ partial "feature.html" (dict
+						"src" "/images/features/SA4_color.png"
+						"alt" "Feature Image"
+						"rotation" "1.5deg"
+						"title" (i18n "WEBSITE_FEATURE_03_HEADER")
+						"description" (i18n "WEBSITE_FEATURE_03_CONTENT")
+					) }}
+
+					{{ partial "feature.html" (dict
+						"src" "/images/features/SA6_color.png"
+						"alt" "Feature Image"
+						"rotation" "-1.5deg"
+						"title" (i18n "WEBSITE_FEATURE_04_HEADER")
+						"description" (i18n "WEBSITE_FEATURE_04_CONTENT")
+					) }}
+<!--
+					{{ partial "feature.html" (dict
+						"src" "/images/features/SA6_color.png"
+						"alt" "Feature Image"
+						"rotation" "1.5deg"
+						"title" "Lore System"
+						"description" "This allows the AI to remember (the best it can) events that transpired during the game; interactions build on top of each other!"
+					) }}
+-->
+
+					{{ partial "feature.html" (dict
+						"src" "/images/features/SA7_color.png"
+						"alt" "Feature Image"
+						"rotation" "-1.5deg"
+						"title" (i18n "WEBSITE_FEATURE_05_HEADER")
+						"description" (i18n "WEBSITE_FEATURE_05_CONTENT")
 					) }}
 
 				</div>
 			</div>
 		</div>
 
-		<!-- FAQ -->
+		<!-- Press Kit -->
 		<div class="container-fluid bg-dark text-white py-5">
 			<div class="container">
+				<h2 class="text-uppercase text-center mb-5">{{ i18n "WEBSITE_PRESS_KIT" }}</h2>
+				<div class="row">
+				  <div class="col-md-8 d-flex align-items-center justify-content-start">
+					<p class="mb-0">{{ i18n "WEBSITE_PRESS_KIT_CONTENT" }}</p>
+				  </div>
+				  <div class="col-md-4 d-flex justify-content-end">
+					<a type="button" class="btn btn-secondary d-flex align-items-center justify-content-center" href='/press-kit.zip' download>{{ i18n "WEBSITE_PRESS_KIT_DOWNLOAD" }}</a>
+				  </div>
+				</div>
+			  </div>  
+		</div>
+
+		<!-- FAQ -->
+		<div class="container-fluid bg-dark text-white">
+			<div class="container">
 				<div class="col">
-					<h2 class="text-uppercasetext-uppercase text-center mb-5">FAQ</h2>
+					<h2 class="text-uppercasetext-uppercase text-center mb-5">{{ i18n "WEBSITE_FAQ" }}</h2>
 
 					<div class="accordion" id="accordionFAQ">
 
-						{{ partial "faq.html" (dict
-							"id" "collapseOne"
-							"expanded" "true"
-							"question" "What is Hugo?"
-							"answer" "Hugo is a fast and modern static site generator written in Go.")
+						{{ $faqs := slice 
+							(dict
+								"question" (i18n "WEBSITE_FAQ_00_HEADER")
+								"answer" (i18n "WEBSITE_FAQ_00_CONTENT")
+							)
+							(dict
+								"question" (i18n "WEBSITE_FAQ_01_HEADER")
+								"answer" (i18n "WEBSITE_FAQ_01_CONTENT")
+							)
+							(dict
+								"question" (i18n "WEBSITE_FAQ_02_HEADER")
+								"answer" (i18n "WEBSITE_FAQ_02_CONTENT")
+							)
+							(dict
+								"question" (i18n "WEBSITE_FAQ_03_HEADER")
+								"answer" (i18n "WEBSITE_FAQ_03_CONTENT")
+							)
+							(dict
+								"question" (i18n "WEBSITE_FAQ_04_HEADER")
+								"answer" (i18n "WEBSITE_FAQ_04_CONTENT")
+							)
 						}}
 						
-						{{ partial "faq.html" (dict
-							"id" "collapseTwo"
-							"expanded" "false"
-							"question" "What is Bootstrap?"
-							"answer" "Bootstrap is a popular CSS framework for developing responsive and mobile-first websites.")
-						}}
+						{{ range $index, $faq := $faqs }}
+							{{ $id := printf "collapse%v" (add $index 1) }}
+							{{ $expanded := cond (eq $index 0) "true" "false" }}
+							{{ $faq = merge $faq (dict "id" $id "expanded" $expanded) }}
+							{{ partial "faq.html" $faq }}
+						{{ end }}
 
 					</div>
 					
@@ -96,7 +179,13 @@
 			</div>
 		</div>
 
+		<div class="container-fluid bg-dark text-white d-flex justify-content-center pt-5">
+			<a type="button" class="btn btn-primary btn-lg font-weight-bold text-uppercase px-2" href="#">{{ i18n "WEBSITE_PLAY_NOW" }}</a>
+		</div>
+
 		{{ partial "footer.html" . }}
 	</div>
 </body>
 </html>
+
+<!--At home, UPnP allows automatic host discovery.<br><br>For online play, the host must port forward and share the server IP.-->

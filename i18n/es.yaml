@@ -1,2 +1,64 @@
-hook:
-  other: "hook hook hook hook hook hook hook hook"
+WEBSITE_HEADER2:
+  Un juego para que des rienda suelta a tu imaginación.
+WEBSITE_HEADER3:
+  Levanta tu imperio, conquista el sistema solar y álzate como líder indiscutible.
+WEBSITE_PLAY_NOW:
+  ¡Juega ya!
+WEBSITE_FEATURES:
+  Características
+WEBSITE_FEATURE_00_HEADER:
+  Crea tu imperio
+WEBSITE_FEATURE_00_CONTENT:
+  Da rienda suelta a tu creatividad y diseña el imperio definitivo a tu gusto. Cada decisión que tomes dejará huella.
+WEBSITE_FEATURE_01_HEADER:
+  Tus deseos son órdenes...
+WEBSITE_FEATURE_01_CONTENT:
+  Usa tu terminal para escribir o introduce tus órdenes mediante comandos de voz, ya sea para erigir una estatua o para lanzar el patito nuclear. Disfruta mientras tu imperio ejecuta tu plan brillante... o se estrella contra la luna.
+WEBSITE_FEATURE_02_HEADER:
+  Los amigos juegan gratis
+WEBSITE_FEATURE_02_CONTENT:
+  Crea una partida para tus amigos, que pueden unirse usando un cliente GRATIS disponible en Steam, la App Store y Play Store. Jugad en línea o sin conexión ¡incluso al mismo tiempo!
+WEBSITE_FEATURE_03_HEADER:
+  Narrador por IA
+WEBSITE_FEATURE_03_CONTENT:
+  Os acompañará un agente diseñado para indicar el estado de las partidas, crear y ampliar la historia y narrar una serie de acontecimientos con acciones animadas que mostrarán el impacto en el juego. Compatible con LLAMA y con GPT de OpenAI.
+WEBSITE_FEATURE_04_HEADER:
+  ¿Una alucinación? ¡Más bien tu imaginación!
+WEBSITE_FEATURE_04_CONTENT:
+  Hemos transformado lo peor de la tecnología LLM, las alucinaciones, en imaginación. Si la IA dice que algo ha pasado, ¡entonces lo ha hecho! ¡La ficción se convierte en realidad!
+WEBSITE_FEATURE_05_HEADER:
+  ¿Odias la IA?
+WEBSITE_FEATURE_05_CONTENT:
+  ¡Nosotros también! Por eso le hemos pagado a gente real para desarrollar este juego. El arte, la música y el código están creados por humanos. Solo usamos la IA en la mecánica del juego, y te damos la opción de elegir qué IA usar, aunque, por defecto, utilizamos un modelo LLAMA en local.
+WEBSITE_PRESS_KIT:
+  Kit de prensa
+WEBSITE_PRESS_KIT_CONTENT:
+  ¡Comparte las novedades! Aquí están las capturas de pantalla, el arte, el tráiler y la banda sonora.
+WEBSITE_PRESS_KIT_DOWNLOAD:
+  Descargar kit de prensa
+WEBSITE_FAQ:
+  Preguntas frecuentes
+WEBSITE_FAQ_00_HEADER:
+  ¿Está inspirado en DougDoug?
+WEBSITE_FAQ_00_CONTENT:
+  El 1 de noviembre del 2022, el divertidísimo creador de contenido DougDoug publicó un vídeo llamado: «Twitch Chat and I invaded Space with Artificial Intelligence», que nos dio rápidamente la inspiración para convertir su idea en un juego de verdad.
+WEBSITE_FAQ_01_HEADER:
+  ¿Puedo crear yo el servidor del vestíbulo?
+WEBSITE_FAQ_01_CONTENT:
+  ¡Claro! Crea el servidor donde tú quieras y enlaza a él el juego desde los ajustes de Space Conquest.
+WEBSITE_FAQ_02_HEADER:
+  ¿Cómo puedo jugar en línea?
+WEBSITE_FAQ_02_CONTENT:
+  El anfitrión crea una sala y, si ambos jugadores están conectados al mismo servidor del vestíbulo (que se encuentra en los ajustes), podrán conectarse a la sala usando el código de 4 letras. ¡Así de fácil!
+WEBSITE_FAQ_03_HEADER:
+  ¿Puedo usar GPT de OpenAI? Mi ordenador no tiene suficiente potencia para usar la IA en local.
+WEBSITE_FAQ_03_CONTENT:
+  Sí. El anfitrión tiene que darte una clave de desarrollador de OpenAI y OpenAI le cobrará el precio a él.
+WEBSITE_FAQ_04_HEADER:
+  ¿Puedo usar ElevenLabs para la narración?
+WEBSITE_FAQ_04_CONTENT:
+  Sí. El anfitrión tiene que darte una clave de desarrollador de ElevenLabs y ElevenLabs le cobrará el precio a él.
+WEBSITE_CONTACT:
+  Para cualquier duda o cuestión, ponte en contacto con %s.
+WEBSITE_COPYRIGHT_RIGHTS:
+  Todos los derechos reservados.
