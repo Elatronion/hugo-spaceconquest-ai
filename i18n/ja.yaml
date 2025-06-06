@@ -17,11 +17,11 @@ WEBSITE_FEATURE_01_CONTENT:
 WEBSITE_FEATURE_02_HEADER:
   友達と無料で対戦！
 WEBSITE_FEATURE_02_CONTENT:
-  ゲームをホストしたり、Steam、App Store、Google Playで入手可能な無料のクライアントを使って友達のゲームに参加したりできる。オンラインでもオフラインでも、両方同時でもプレイ可能！
+  ゲームをホストしたり、Steamで入手可能な無料のクライアントを使って友達のゲームに参加したりできる！
 WEBSITE_FEATURE_03_HEADER:
   AIのゲームマスター
 WEBSITE_FEATURE_03_CONTENT:
-  ゲームの現状を考慮し、伝承を作ってふくらませたり、ひねりのある楽しいストーリーをナレーションしたりするように設計されている！行動には臨場感を出すアニメーションも！LlamaとOpenAIのGPTに対応。
+  ゲームの現状を考慮し、伝承を作ってふくらませたり、ひねりのある楽しいストーリーをナレーションしたりするように設計されている！行動には臨場感を出すアニメーションも！
 WEBSITE_FEATURE_04_HEADER:
   幻覚？むしろ想像力だ！
 WEBSITE_FEATURE_04_CONTENT:
@@ -29,7 +29,7 @@ WEBSITE_FEATURE_04_CONTENT:
 WEBSITE_FEATURE_05_HEADER:
   AIは嫌いですか？
 WEBSITE_FEATURE_05_CONTENT:
-  そうですね！このゲームを作るために、実在する人間に料金を支払いました！アート、コード、音楽はすべて人間の手によるものです。コアとなるゲームプレイシステムにのみAIが使われており、エージェントを動かすAIは選ぶことができます。デフォルトでは、ローカルで動作するLlamaモデルになっています。
+  そうですね！このゲームを作るために、実在する人間に料金を支払いました！アート、コード、音楽はすべて人間の手によるものです。コアとなるゲームプレイシステムにのみAIが使われており、エージェントを動かすAIは選ぶことができます。ゲームはローカルで実行される llama-cpp および piper モデルを使用します。
 WEBSITE_PRESS_KIT:
   プレスキット
 WEBSITE_PRESS_KIT_CONTENT:

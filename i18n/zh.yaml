@@ -17,11 +17,11 @@ WEBSITE_FEATURE_01_CONTENT:
 WEBSITE_FEATURE_02_HEADER:
   好友免费同乐！
 WEBSITE_FEATURE_02_CONTENT:
-  为朋友创建房间，他们可以通过Steam、App Store或者Goole Play上免费下载的客户端进入。可以线上游戏，也可以线下游戏，甚至可以同时线上、线下游戏！
+  为您的朋友举办一场游戏，他们可以使用 Steam 上提供的免费客户端加入！
 WEBSITE_FEATURE_03_HEADER:
   AI游戏高手
 WEBSITE_FEATURE_03_CONTENT:
-  这个智能体能够理解游戏状态，创作、拓展背景故事，还能讲出跌宕起伏的故事，同时配上精彩的动画场景！智能体支持Llama和OpenAI的ChatGPT。
+  这个智能体能够理解游戏状态，创作、拓展背景故事，还能讲出跌宕起伏的故事，同时配上精彩的动画场景！
 WEBSITE_FEATURE_04_HEADER:
   幻觉？想象！
 WEBSITE_FEATURE_04_CONTENT:
@@ -29,7 +29,7 @@ WEBSITE_FEATURE_04_CONTENT:
 WEBSITE_FEATURE_05_HEADER:
   你不喜欢人工智能？
 WEBSITE_FEATURE_05_CONTENT:
-  我们也不喜欢！这款游戏是真人有偿制作！所有美术、代码和音乐均为人类创作。只有核心游戏循环用到了人工智能，而且你可以决定智能体用哪一套人工智能。默认设置下，我们提供本地运行的Llama模型。
+  我们也不喜欢！这款游戏是真人有偿制作！所有美术、代码和音乐均为人类创作。只有核心游戏循环用到了人工智能，而且你可以决定智能体用哪一套人工智能。该游戏使用本地运行的 llama-cpp 和 piper 模型。
 WEBSITE_PRESS_KIT:
   媒体资料包
 WEBSITE_PRESS_KIT_CONTENT:

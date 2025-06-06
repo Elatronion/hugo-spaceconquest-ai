@@ -17,11 +17,11 @@ WEBSITE_FEATURE_01_CONTENT:
 WEBSITE_FEATURE_02_HEADER:
   Vos amis, jouez gratuitement !
 WEBSITE_FEATURE_02_CONTENT:
-  Organisez une partie pour vos amis, qui pourront se joindre à vous grâce à un client GRATUIT disponible sur Steam, l'App Store et le Play Store. Jouez en ligne ou hors ligne, ou même les deux simultanément !
+  Organisez une partie pour vos amis, qui pourront se joindre à vous grâce à un client GRATUIT disponible sur Steam !
 WEBSITE_FEATURE_03_HEADER:
   Maître du jeu IA
 WEBSITE_FEATURE_03_CONTENT:
-  Un agent conçu pour analyser l'état du jeu, et raconter une histoire amusante pleine de rebondissements et d'actions animées qui illustrent votre impact dans le jeu ! Il est compatible avec LLAMA et le GPT d'OpenAI.
+  Un agent conçu pour analyser l'état du jeu, et raconter une histoire amusante pleine de rebondissements et d'actions animées qui illustrent votre impact dans le jeu !
 WEBSITE_FEATURE_04_HEADER:
   Hallucination ? Plutôt imagination !
 WEBSITE_FEATURE_04_CONTENT:
@@ -29,7 +29,7 @@ WEBSITE_FEATURE_04_CONTENT:
 WEBSITE_FEATURE_05_HEADER:
   Vous détestez l’IA ?
 WEBSITE_FEATURE_05_CONTENT:
-  Nous aussi ! Nous avons payé de vraies personnes pour développer ce jeu ! L'ensemble des graphismes, du code et de la musique a été créé par des humains. Nous utilisons exclusivement l'IA dans le gameplay principal, et vous pouvez choisir l'IA qui alimente l'agent. Par défaut, nous proposons un modèle LLAMA exécuté localement.
+  Nous aussi ! Nous avons payé de vraies personnes pour développer ce jeu ! L'ensemble des graphismes, du code et de la musique a été créé par des humains. Nous utilisons exclusivement l'IA dans le gameplay principal, et vous pouvez choisir l'IA qui alimente l'agent. Le jeu utilise un modèle llama-cpp et piper exécuté localement.
 WEBSITE_PRESS_KIT:
   Dossier de presse
 WEBSITE_PRESS_KIT_CONTENT:

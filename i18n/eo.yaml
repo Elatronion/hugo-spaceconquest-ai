@@ -17,11 +17,11 @@ WEBSITE_FEATURE_01_CONTENT:
 WEBSITE_FEATURE_02_HEADER:
   "Amikoj Ludas Senpage!"
 WEBSITE_FEATURE_02_CONTENT:
-  "Gastigu ludon por viaj amikoj, kiuj povas aliĝi per senpaga kliento havebla ĉe Steam, la App Store kaj la Play Store. Ludu aŭ interrete aŭ eksterrete, eĉ ambaŭ samtempe!"
+  "Gastigu ludon por viaj amikoj, kiuj povas aliĝi per senpaga kliento havebla ĉe Steam!"
 WEBSITE_FEATURE_03_HEADER:
   "AI-Lud-Majstro"
 WEBSITE_FEATURE_03_CONTENT:
-  "Agento desegnita por konsideri ludstaton, krei kaj etendi legendojn, kaj rakonti amuzan rakonton plenigitan per turniĝoj kun animaciitaj agoj, kiuj prezentas la efikon en la ludo! Ĝi subtenas LLAMA kaj GPT de OpenAI."
+  "Agento desegnita por konsideri ludstaton, krei kaj etendi legendojn, kaj rakonti amuzan rakonton plenigitan per turniĝoj kun animaciitaj agoj, kiuj prezentas la efikon en la ludo!"
 WEBSITE_FEATURE_04_HEADER:
   "Halucinacio? Pli bone diri Imagopovo!"
 WEBSITE_FEATURE_04_CONTENT:
@@ -29,7 +29,7 @@ WEBSITE_FEATURE_04_CONTENT:
 WEBSITE_FEATURE_05_HEADER:
   "Ĉu vi malamas AI?"
 WEBSITE_FEATURE_05_CONTENT:
-  "Ni ankaŭ! Ni pagis verajn homojn por fari ĉi tiun ludon! Ĉiu arto, kodo kaj muziko estis verkita de homoj. Ni uzas AI ekskluzive en la ĉefa ludpovilo, kaj vi povas elekti kiun AI regas la agenton. Defaŭlte, ni proponas lokan LLAMA-modelon."
+  "Ni ankaŭ! Ni pagis verajn homojn por fari ĉi tiun ludon! Ĉiu arto, kodo kaj muziko estis verkita de homoj. Ni uzas AI ekskluzive en la ĉefa ludpovilo, kaj vi povas elekti kiun AI regas la agenton. La ludo uzas loke funkciigatan llama-cpp kaj piper modelon."
 WEBSITE_PRESS_KIT:
   "Pres-Kit"
 WEBSITE_PRESS_KIT_CONTENT:

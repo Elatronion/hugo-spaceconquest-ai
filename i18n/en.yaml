@@ -17,11 +17,11 @@ WEBSITE_FEATURE_01_CONTENT:
 WEBSITE_FEATURE_02_HEADER:
   "Friends Play for Free!"
 WEBSITE_FEATURE_02_CONTENT:
-  "Host a game for your friends, whom can join using a FREE client available on Steam, the App Store, and the Play Store. Play either online or offline, even both at the same time!"
+  "Host a game for your friends, whom can join using a FREE client available on Steam!"
 WEBSITE_FEATURE_03_HEADER:
   "AI Game Master"
 WEBSITE_FEATURE_03_CONTENT:
-  "An agent designed to consider game state, create and expand lore, and narrate a fun story filled with twists along with animated actions that showcase the impact in game! It supports LLAMA and OpenAI's GPT."
+  "An agent designed to consider game state, create and expand lore, and narrate a fun story filled with twists along with animated actions that showcase the impact in game!"
 WEBSITE_FEATURE_04_HEADER:
   "Hallucination? More Like Imagination!"
 WEBSITE_FEATURE_04_CONTENT:
@@ -29,7 +29,7 @@ WEBSITE_FEATURE_04_CONTENT:
 WEBSITE_FEATURE_05_HEADER:
   "You Hate AI?"
 WEBSITE_FEATURE_05_CONTENT:
-  "So do we! We paid real people to make this game! All the art, code, and music was authored by humans. We exclusivly use AI in the core gameplay loop, and you can choose which AI powers the agent. By default, we offer a locally-run LLAMA model."
+  "So do we! We paid real people to make this game! All the art, code, and music was authored by humans. We exclusivly use AI in the core gameplay loop, and you can choose which AI powers the agent. The game uses a locally-run llama-cpp and piper model."
 WEBSITE_PRESS_KIT:
   "Press Kit"
 WEBSITE_PRESS_KIT_CONTENT:
@@ -51,9 +51,9 @@ WEBSITE_FAQ_02_HEADER:
 WEBSITE_FAQ_02_CONTENT:
   "The host creates room, and as long as both of you are connected to the same lobby server (found in settings), you will be able to connect to the host room by using the 4-letter code. It's that easy!"
 WEBSITE_FAQ_03_HEADER:
-  "Can I Use OpenAI's GPT? My PC Isn't Strong Enough To Run The AI Locally."
+  "Can I use an external AI service?"
 WEBSITE_FAQ_03_CONTENT:
-  "Yes. The host must provide an OpenAI developer key, they will personally be charged by OpenAI."
+  "Unfortunately, no. This feature is no longer supported."
 WEBSITE_FAQ_04_HEADER:
   "Can I use ElevenLabs for Narration?"
 WEBSITE_FAQ_04_CONTENT:
