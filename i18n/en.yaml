@@ -13,11 +13,11 @@ WEBSITE_FEATURE_00_CONTENT:
 WEBSITE_FEATURE_01_HEADER:
   "Your Wish Is Our Command, Emperor..."
 WEBSITE_FEATURE_01_CONTENT:
-  "Unleash your creativity to design the ultimate empire in your vision! Every decision you make leaves a lasting legacy."
+  "From erecting a statue to launching the nuclear chicken, use your terminal console to type or speak your command and watch as your empire executes your brilliant plan... or crashes into the moon trying!"
 WEBSITE_FEATURE_02_HEADER:
   "Friends Play for Free!"
 WEBSITE_FEATURE_02_CONTENT:
-  "Host a game for your friends, whom can join using a FREE client available on Steam!"
+  "Host a game for your friends, who can join using a FREE client available on Steam!"
 WEBSITE_FEATURE_03_HEADER:
   "AI Game Master"
 WEBSITE_FEATURE_03_CONTENT:
@@ -29,7 +29,7 @@ WEBSITE_FEATURE_04_CONTENT:
 WEBSITE_FEATURE_05_HEADER:
   "You Hate AI?"
 WEBSITE_FEATURE_05_CONTENT:
-  "So do we! We paid real people to make this game! All the art, code, and music was authored by humans. We exclusivly use AI in the core gameplay loop, and you can choose which AI powers the agent. The game uses a locally-run llama-cpp and piper model."
+  "So do we! We paid real people to make this game! All the art, code, and music was authored by humans. We exclusively use AI in the core gameplay loop, and you can choose which AI powers the agent. The game uses a locally-run llama-cpp and piper model."
 WEBSITE_PRESS_KIT:
   "Press Kit"
 WEBSITE_PRESS_KIT_CONTENT:
