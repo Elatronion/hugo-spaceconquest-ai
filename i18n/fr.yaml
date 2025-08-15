@@ -17,7 +17,9 @@ WEBSITE_FEATURE_01_CONTENT:
 WEBSITE_FEATURE_02_HEADER:
   Vos amis, jouez gratuitement !
 WEBSITE_FEATURE_02_CONTENT:
-  Organisez une partie pour vos amis, qui pourront se joindre à vous grâce à un client GRATUIT disponible sur Steam !
+  "Pour héberger le jeu, l'achat du DLC « Space Conquest AI - AIGM » est requis.
+
+Rejoindre le jeu est gratuit pour tous les amis Steam de l'hôte possédant le jeu de base."
 WEBSITE_FEATURE_03_HEADER:
   Maître du jeu IA
 WEBSITE_FEATURE_03_CONTENT:

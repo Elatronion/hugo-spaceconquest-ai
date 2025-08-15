@@ -17,7 +17,9 @@ WEBSITE_FEATURE_01_CONTENT:
 WEBSITE_FEATURE_02_HEADER:
   Los amigos juegan gratis
 WEBSITE_FEATURE_02_CONTENT:
-  Crea una partida para tus amigos, que pueden unirse usando un cliente GRATIS disponible en Steam!
+  "Para ser anfitrión del juego, se requiere la compra del DLC \"Space Conquest AI - AIGM\".
+
+Unirse al juego es gratis para cualquier amigo de Steam del anfitrión que tenga el juego base, ¡disponible sin costo!"
 WEBSITE_FEATURE_03_HEADER:
   Narrador por IA
 WEBSITE_FEATURE_03_CONTENT:

@@ -17,7 +17,9 @@ WEBSITE_FEATURE_01_CONTENT:
 WEBSITE_FEATURE_02_HEADER:
   友達と無料で対戦！
 WEBSITE_FEATURE_02_CONTENT:
-  ゲームをホストしたり、Steamで入手可能な無料のクライアントを使って友達のゲームに参加したりできる！
+  "ゲームをホストするには、「Space Conquest AI - AIGM」DLCのご購入が必要です。
+
+ホストのSteamフレンドで、ベースゲーム（無料）をお持ちの方は、ゲームに無料で参加できます！"
 WEBSITE_FEATURE_03_HEADER:
   AIのゲームマスター
 WEBSITE_FEATURE_03_CONTENT:

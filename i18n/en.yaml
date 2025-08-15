@@ -17,7 +17,9 @@ WEBSITE_FEATURE_01_CONTENT:
 WEBSITE_FEATURE_02_HEADER:
   "Friends Play for Free!"
 WEBSITE_FEATURE_02_CONTENT:
-  "Host a game for your friends, who can join using a FREE client available on Steam!"
+  "To HOST the game, a purchase of the \"Space Conquest AI - AIGM\" DLC is required.
+
+Joining the game is free for any of the host's Steam friends who have the base game, which is available at no cost!"
 WEBSITE_FEATURE_03_HEADER:
   "AI Game Master"
 WEBSITE_FEATURE_03_CONTENT:
